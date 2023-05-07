@@ -147,4 +147,5 @@ header h1 {
 #clear {
   opacity: 0;
   transition: all 0.3s;
+  /* background: #089103; */
 }  

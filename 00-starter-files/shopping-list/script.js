@@ -158,8 +158,8 @@ const btn2 = document.createElement("button");
 btn2.classList.add("btn2");
 btn2.setAttribute("type", "submit");
 // btn2.setAttribute('submit')
-btn2.style.background = "#0bc204";
-btn2.innerHTML = `<i class="fa-solid fa-plus"></i> Update Item`;
+btn2.style.background = "#089103";
+btn2.innerHTML = `<i class="fa-solid fa-pen"></i> Update Item`;
 // btn2.innerText = 
 formButton.replaceWith(btn2);
 }
