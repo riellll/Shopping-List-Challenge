@@ -172,6 +172,7 @@ btn_clear.addEventListener("click", function (e) {
   btn_clear.style.opacity = 0
   // filter.style.transition = 1;
   // btn_clear.style.transition = 1;
+  saveData()
 });
 
 filter.addEventListener("input", function () {
@@ -197,7 +198,7 @@ filter.addEventListener("input", function () {
 
 // save the data input list
 const saveData = function () {
-  localStorage.setItem("data", item_list.textContent);
+  localStorage.setItem("data", item_list.innerHTML);
 };
 
 const showTask = function () {
